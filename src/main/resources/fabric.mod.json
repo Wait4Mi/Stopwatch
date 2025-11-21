@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "stopwatch",
+	"version": "${version}",
+	"name": "Stopwatch",
+	"description": "A simple stopwatch to time things",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Wait4Mi/Stopwatch"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/stopwatch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.ekaiimc.stopwatch.Stopwatch"
+		],
+		"fabric-datagen": [
+			"fr.ekaiimc.stopwatch.StopwatchDataGenerator"
+		],
+        "client": [
+            "fr.ekaiimc.stopwatch.StopwatchClient"
+        ]
+	},
+	"mixins": [
+		"stopwatch.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
