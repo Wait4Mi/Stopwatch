@@ -23,6 +23,9 @@
 		],
         "client": [
             "fr.ekaiimc.stopwatch.StopwatchClient"
+        ],
+        "modmenu": [
+            "fr.ekaiimc.stopwatch.StopwatchModmenu"
         ]
 	},
 	"mixins": [
@@ -32,7 +35,10 @@
 		"fabricloader": ">=0.18.1",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+        "cloth-config": "*",
+        "modmenu": "*"
+
 	},
 	"suggests": {
 		"another-mod": "*"

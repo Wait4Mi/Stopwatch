@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.stopwatch.title": "Stopwatch Configuration",
+
+  "text.autoconfig.stopwatch.option.enabled": "Enable Stopwatch",
+  "text.autoconfig.stopwatch.option.enabled.@Tooltip": "Toggle the stopwatch on or off.",
+
+  "text.autoconfig.stopwatch.category.display": "Display Settings",
+
+  "text.autoconfig.stopwatch.option.x": "X Position",
+  "text.autoconfig.stopwatch.option.x.@Tooltip": "Horizontal position on the screen.",
+
+  "text.autoconfig.stopwatch.option.y": "Y Position",
+  "text.autoconfig.stopwatch.option.y.@Tooltip": "Vertical position on the screen.",
+
+  "text.autoconfig.stopwatch.option.scalePercent": "Scale (%)",
+  "text.autoconfig.stopwatch.option.scalePercent.@Tooltip": "Size of the text in percentage (50-500)."
+}

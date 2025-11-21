@@ -12,6 +12,6 @@ public class Stopwatch implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        LOGGER.info("Stopwatch Mod a démarré !");
 	}
 }
