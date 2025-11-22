@@ -13,5 +13,22 @@
   "text.autoconfig.stopwatch.option.y.@Tooltip": "Vertical position on the screen.",
 
   "text.autoconfig.stopwatch.option.scalePercent": "Scale (%)",
-  "text.autoconfig.stopwatch.option.scalePercent.@Tooltip": "Size of the text in percentage (50-500)."
+  "text.autoconfig.stopwatch.option.scalePercent.@Tooltip": "Size of the text in percentage (50-500).",
+
+  "category.stopwatch.main": "Stopwatch",
+
+  "key.stopwatch.lap": "Add lap",
+
+  "key.stopwatch.reset": "Reset Stopwatch",
+
+  "key.stopwatch.toggle": "Start/Stop Stopwatch",
+
+  "text.autoconfig.stopwatch.Title": "Stopwatch Config",
+
+  "text.autoconfig.stopwatch.category.logic": "Logic & Behavior",
+  "text.autoconfig.stopwatch.option.useSpeedrunMode": "Speedrun Mode (Splits)",
+  "text.autoconfig.stopwatch.option.useSpeedrunMode.@Tooltip": "If ON: Shows segment duration and delta (+/-). If OFF: Shows absolute total time.",
+  "text.autoconfig.stopwatch.category.default": "Default",
+  "text.autoconfig.stopwatch.option.autoStart": "Auto Start",
+  "text.autoconfig.stopwatch.option.autoStart.@Tooltip": "Starts the timer automatically when passing first checkpoint."
 }
